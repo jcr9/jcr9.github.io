@@ -155,10 +155,14 @@ a {
 
 /* HERO STYLES */
 .full-hero {
-	background-color: #c7dbfc;
-	height: 50vh;
+  background-color: #c7dbfc;
+  box-sizing: border-box;
+  height: 100vh;
+  padding-top: 10vh;
 }
-
+.hero-home {
+  background-image: url(/images/shark.jpg);
+}
 /* SOCIAL STYLES */
 .social-link {
 	background: rgba(150, 150, 150, 0.5);
